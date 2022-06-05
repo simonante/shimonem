@@ -6,3 +6,4 @@ quote-author: Ecclesiastees 1:1-2
 permalink: /eccl-i
 published: true
 ---
+a
