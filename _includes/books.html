@@ -1,1 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+    
+        <style>
+            a[target="_blank"]:after {
+              content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==)
+              margin: 0 3px 0 5px
+            }
+        </style>
 
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+
+          <nav>
+            <a href="{{ site.baseurl }}/essays">Writing</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+    
+    <article class="books">
+      <h1>{{ books.title }}</h1>
+      <h1>{{ books.author }}</h1>
+    </article>
+
+    
+     <div id="main" role="main" class="container">
+       
+   <!--    <div markdown="1">
+          |---|---|
+          {% for books in site.books -%}
+          {% if books.title -%}
+          |[{{ books.title }}]({{ books.url }})  |   — {{ books.author }}  |
+          {% endif %}
+          {%- endfor -%}
+         </div> --->
+       
+       
+        <details>
+          <summary>Classics (reading in perpetuum):</summary>
+
+          <table>
+            <colgroup>
+              <col width="60%" />
+              <col width="50%" />
+            </colgroup>
+            <tbody>
+              <tr>
+                {% for link in books.links %}
+                  <td markdown="span"><a href="{{ books.url }}">{{ books.title }}</a></td>
+                  <td markdown="span"> &nbsp;— {{ books.author }}</td>
+                {% endfor %}
+              </tr>
+            </tbody>
+          </table>
+        </details>
+       
+
+    
+            <details>
+          <summary>Read:</summary>
+
+          <table>
+            <colgroup>
+              <col width="60%" />
+              <col width="50%" />
+            </colgroup>
+            <tbody>
+              <tr>
+                <td markdown="span"><a href="{{ books.url }}">{{ books.title }}</a></td>
+                <td markdown="span"> &nbsp;— {{ books.author }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </details>
+    
+                <details>
+          <summary>Want to read:</summary>
+
+          <table>
+            <colgroup>
+              <col width="60%" />
+              <col width="50%" />
+            </colgroup>
+            <tbody>
+              <tr>
+                <td markdown="span"><a href="{{ books.url }}">{{ books.title }}</a></td>
+                <td markdown="span"> &nbsp;— {{ books.author }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </details>
+    {% include analytics.html %}
+    {% include open-embed.html %}
+    {% include quotes.html %}
+           </div>
+    
+        <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+            <a href="{{ site.baseurl }}/library">Published books</a>
+            <a href="{{ site.baseurl }}/fineart">Fine arts</a>
+            <a href="{{ site.baseurl }}/reading">Library</a>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
