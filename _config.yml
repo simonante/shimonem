@@ -93,7 +93,3 @@ collections:
 collections:
   quotes:
     output: true
-    
-collections:
-  books-page:
-    output: true
