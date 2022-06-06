@@ -1,0 +1,54 @@
+<details>
+          <summary>Classics (reading in perpetuum):</summary>
+
+          <table>
+            <colgroup>
+              <col width="60%" />
+              <col width="50%" />
+            </colgroup>
+            <tbody>
+              <tr>
+                {% for link in books.links %}
+                  <td markdown="span"><a href="{{ books.url }}">{{ books.title }}</a></td>
+                  <td markdown="span"> &nbsp;— {{ books.author }}</td>
+                {% endfor %}
+              </tr>
+            </tbody>
+          </table>
+        </details>
+       
+
+    
+            <details>
+          <summary>Read:</summary>
+
+          <table>
+            <colgroup>
+              <col width="60%" />
+              <col width="50%" />
+            </colgroup>
+            <tbody>
+              <tr>
+                <td markdown="span"><a href="{{ books.url }}">{{ books.title }}</a></td>
+                <td markdown="span"> &nbsp;— {{ books.author }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </details>
+    
+                <details>
+          <summary>Want to read:</summary>
+
+          <table>
+            <colgroup>
+              <col width="60%" />
+              <col width="50%" />
+            </colgroup>
+            <tbody>
+              <tr>
+                <td markdown="span"><a href="{{ books.url }}">{{ books.title }}</a></td>
+                <td markdown="span"> &nbsp;— {{ books.author }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </details>
