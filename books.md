@@ -6,10 +6,8 @@ permalink: /reading/
 
 <script>
     var sites = [
-        'http://www.google.com',
-        'http://www.stackoverflow.com',
-        'http://www.example.com',
-        'http://www.youtube.com'
+        '{% include quotes.html %}',
+        '{% include quotes.html %}'
     ];
 
     function randomSite() {
