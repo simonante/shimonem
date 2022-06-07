@@ -36,14 +36,3 @@ permalink: /reading/
 <p id="quote-i"></p>
 
 ===
-
-<script>
-    var myArray = [
-      "Ecclesiastes",
-      "Solovyov"
-    ];
-
-    var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
-
-    document.body.innerHTML = randomItem;
-</script>
