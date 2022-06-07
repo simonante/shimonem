@@ -7,5 +7,9 @@
 
     var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
 
-    document.body.innerHTML += randomItem;
+    const randomItemElement = document.createElement("div");
+    randomItemElement.innerHTML = randomItem;
+    randomItemElement.style.color = "blue";
+
+    document.body.appendChild(randomItemElement);
 </script>
