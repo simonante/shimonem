@@ -38,13 +38,12 @@ permalink: /reading/
 ===
 
 <script>
-    function random_item(items)
-    {
+    var myArray = [
+      "{% include quotes-eccl-i.html %}",
+      "{% include quotes-solovyev-i.html %}"
+    ];
 
-    return items[Math.floor(Math.random()*items.length)];
+    var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
 
-    }
-
-    var items = ["{% include quotes-eccl-i.html %}", "{% include quotes-solovyev-i.html %}"];
-    console.log(random_item(items));
+    document.body.innerHTML = randomItem;
 </script>
