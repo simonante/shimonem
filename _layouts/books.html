@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
     
         <style>
@@ -34,10 +37,6 @@
           </nav>
         </header>
       </div>
-    </div>
-    
-    <div id="main" role="main" class="container">
-      {{ content }}
     </div>
     
     <article class="books">
