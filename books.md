@@ -39,8 +39,8 @@ permalink: /reading/
 
 <script>
     var myArray = [
-      "{% include quotes-eccl-i.html %}",
-      "{% include quotes-solovyev-i.html %}"
+      "Ecclesiastes",
+      "Solovyov"
     ];
 
     var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
