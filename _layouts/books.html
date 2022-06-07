@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      .quoteDiv {
-        border: 5px outset red;
-        background-color: lightblue; 
-        text-align: center;
-      }
-    </style>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
     
         <style>
@@ -123,6 +116,7 @@
         </details>
     {% include analytics.html %}
     {% include open-embed.html %}
+    {% include quote-i.html %}
            </div>
     
         <div class="wrapper-footer">
@@ -131,9 +125,6 @@
             <a href="{{ site.baseurl }}/library">Published books</a>
             <a href="{{ site.baseurl }}/fineart">Fine arts</a>
             <a href="{{ site.baseurl }}/reading">Library</a>
-         <div class="quoteDiv">
-                {% include quote-i.html %}
-         </div>
         </footer>
       </div>
     </div>
