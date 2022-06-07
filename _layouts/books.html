@@ -61,6 +61,19 @@
          </div> --->
        
        
+       <script>
+          var quotes = [
+              '{% include quotes-eccl-i.html %}',
+              '{% include quotes-solovyev-i.html %}'
+          ];
+
+          function random-quote-i() {
+              var i = parseInt(Math.random() * quotes.length);
+              location.href = quotes[i];
+          }
+      </script>
+       
+       
         <details>
           <summary>Classics (reading in perpetuum):</summary>
 
