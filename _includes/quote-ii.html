@@ -1,4 +1,10 @@
-<ul>
-  <p>The fratricide with which history begins was caused by envy and not by hunger.</p>
-  <p>— Vladimir Sergeyevich Solovyov</p>
-</ul>
+<script>
+    var myArray = [
+      "<ul><p>Once the transcendental anchorage is surrendered, the descent from the rational to the animal nature, so it seems, is inevitable.</p><p>— Eric Voegelin</p></ul>",
+      "<ul><p>Democratic communities have a natural taste for freedom: left to themselves, they will seek it, cherish it, and view any privation of it with regret. But for equality, their passion is ardent, insatiable, incessant, invincible: they call for equality in freedom; and if they cannot obtain that they still call for equality in slavery. They will endure poverty, servitude, barbarism--but they will not endure aristocracy.</p><p>— Alexis de Tocqueville, Democracy in America</p></ul>"
+    ];
+
+    var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+
+    document.body.innerHTML = randomItem;
+</script>
