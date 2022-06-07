@@ -15,4 +15,10 @@ permalink: /reading/
         location.href = sites[i];
     }
 </script>
+
 <a href="#" onclick="randomSite();">Random</a>
+<ul>
+  <p>
+      randomSite();
+  </p>
+</ul>
