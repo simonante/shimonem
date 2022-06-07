@@ -10,13 +10,13 @@ permalink: /reading/
         '{% include quote-ii.html %}'
     ];
 
-    function randomSite() {
+    function random-quote-i() {
         var i = parseInt(Math.random() * sites.length);
         location.href = sites[i];
     }
 </script>
 
-<a href="#" onclick="randomSite();">Random</a>
+<a href="#" onclick="random-quote-i();">Random</a>
 <ul>
   <p>
       randomSite();
