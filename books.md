@@ -29,7 +29,7 @@ permalink: /reading/
     function random-quote-i() {
         var i = parseInt(Math.random() * quotes.length);
         location.href = quotes[i];
-        document.getElementById('quote-i').innerHTML = object.id;
+        document.getElementById('quote-i').innerHTML;
     }
 </script>
        
