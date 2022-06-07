@@ -4,7 +4,7 @@
 
 	function linkToRandomBlogPost() {
 		var allPosts = [{% for post in site.quotes %}
-	      "{{ quotes.quote-content }}"{% unless post.previous == nil %},{% endunless %}
+	      "<ul> <p>{{ quotes.quote-content }}</p> </ul>"{% unless post.previous == nil %},{% endunless %}
 		}
 	    {% endfor %}];
 
