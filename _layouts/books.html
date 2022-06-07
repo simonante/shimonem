@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
     
         <style>
@@ -39,15 +36,14 @@
       </div>
     </div>
     
-    <article class="books">
-      <h1>{{ books.title }}</h1>
-      <h1>{{ books.author }}</h1>
-    </article>
-
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
     
+   <!-- 
      <div id="main" role="main" class="container">
        
-   <!--    <div markdown="1">
+   <div markdown="1">
           |---|---|
           {% for books in site.books -%}
           {% if books.title -%}
@@ -55,9 +51,7 @@
           {% endif %}
           {%- endfor -%}
          </div> --->
-       
-      <p id="quote-i"></p>
-       
+    
        
         <details>
           <summary>Classics (reading in perpetuum):</summary>
