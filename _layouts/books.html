@@ -61,18 +61,16 @@
          </div> --->
        
        
-       <script>
-          var quotes = [
-              '{% include quotes-eccl-i.html %}',
-              '{% include quotes-solovyev-i.html %}'
-          ];
+<script>
+    var myArray = [
+      "Ecclesiastes",
+      "Solovyov"
+    ];
 
-          function random-quote-i() {
-              var i = parseInt(Math.random() * quotes.length);
-              location.href = quotes[i];
-              document.getElementById('quote-i').innerHTML = object.id;
-          }
-      </script>
+    var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+
+    document.body.innerHTML = randomItem;
+</script>
        
       <p id="quote-i"></p>
        
