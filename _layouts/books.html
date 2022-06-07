@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+   <div id="main" role="main" class="container">
+      {% include quote-i.html %}
+    </div>
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
     
@@ -34,10 +37,6 @@
           </nav>
         </header>
       </div>
-    </div>
-    
-    <div id="main" role="main" class="container">
-      {{ content }}
     </div>
     
    <!-- 
