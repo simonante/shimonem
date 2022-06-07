@@ -1,27 +1,29 @@
-<script>
-var comingFromPost = document.referrer;
+{% if site.google_analytics %}
+	<script>
+	var comingFromPost = document.referrer;
 
-function linkToRandomBlogPost() {
-	var allPosts = [{% for post in site.quotes %}
-      "{{ quotes.quote-content }}"{% unless post.previous == nil %},{% endunless %}
+	function linkToRandomBlogPost() {
+		var allPosts = [{% for post in site.quotes %}
+	      "{{ quotes.quote-content }}"{% unless post.previous == nil %},{% endunless %}
+		}
+	    {% endfor %}];
+
+	var i = 0;
+	do {
+		var randomPostLink = allPosts[Math.floor(Math.random() * allPosts.length)]; i++;}
+	while (comingFromPost.includes(randomPostLink) || i > 10)
+
+	if (i > 10 && comingFromPost !== '/blog/Getting-Random-Post-in-Jekyll') {
+		randomPostLink = '/blog/Getting-Random-Post-in-Jekyll';}
+
+	if (i > 10 && comingFromPost === '/blog/Getting-Random-Post-in-Jekyll') {
+		randomPostLink = '/blog/Creating-a-Tag-Page-with-Jekyll'
+		}
+
+	return randomPostLink;
 	}
-    {% endfor %}];
 
-var i = 0;
-do {
-	var randomPostLink = allPosts[Math.floor(Math.random() * allPosts.length)]; i++;}
-while (comingFromPost.includes(randomPostLink) || i > 10)
+	location.replace(linkToRandomBlogPost())
 
-if (i > 10 && comingFromPost !== '/blog/Getting-Random-Post-in-Jekyll') {
-	randomPostLink = '/blog/Getting-Random-Post-in-Jekyll';}
-
-if (i > 10 && comingFromPost === '/blog/Getting-Random-Post-in-Jekyll') {
-	randomPostLink = '/blog/Creating-a-Tag-Page-with-Jekyll'
-	}
-
-return randomPostLink;
-}
-
-location.replace(linkToRandomBlogPost())
-
-</script>
+	</script>
+{% endif %}
