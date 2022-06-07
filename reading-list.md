@@ -11,6 +11,15 @@ permalink: /reading-old/
 -->
 
 ## Read
+
+|---|---|
+{% for books in site.books -%}
+{% if books.title -%}
+|[{{ books.title }}]({{ books.url }})  |   — {{ books.author }}  |
+{% endif %}
+{%- endfor -%}
+          
+          
   <details>
   <summary>Good books:</summary>
 
