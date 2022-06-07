@@ -6,8 +6,8 @@ permalink: /reading/
 
 <script>
     var sites = [
-        '{% include quotes.html %}',
-        '{% include quotes.html %}'
+        '{% include quote-i.html %}',
+        '{% include quote-ii.html %}'
     ];
 
     function randomSite() {
