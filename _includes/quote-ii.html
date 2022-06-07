@@ -1,11 +1,8 @@
-{% assign random1 = site.time | date: "%s%N" | modulo: site.quotes.size %}
-{% assign quotes_random1 = site.quotes[random1] %}
-{% assign random2 = site.time | date: "%s%N" | plus: 20 | modulo: site.quotes.size %}
-{% assign quotes_random2 = site.quotes[random2] %}
-{% assign random3 = site.time | date: "%s%N" | plus: 80 | modulo: site.quotes.size %}
-{% assign quotes_random3 = site.quotes[random3] %}
-
-<ul>
-  <p>{{ quotes_random1.quote-content }}</p>
-  <p>—{{ quotes_random1.quote-author }}</p>
-</ul>
+---
+layout: quotes
+title: solovyov-i
+quote-content: The fratricide with which history begins was caused by envy and not by hunger.
+quote-author: Vladimir Sergeyevich Solovyov
+permalink: /solovyov-i
+published: true
+---
