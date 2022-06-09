@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: books-classics
 title: The Science and the Fine Art of Fasting
+permalink: /reading/fasting
 published: true
 ---
 
