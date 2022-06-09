@@ -1,0 +1,35 @@
+---
+layout: page
+title: The Science and the Fine Art of Fasting
+book-author: H.S. Shelton
+isbn-13: 
+permalink: /classics/the-science-and-fine-art-of-fasting
+published: true
+---
+
+- periods of enforced fasting, due to shipwreck, mine disasters, etc.
+- On the colder days, these [animals] sleep and take no food. . . . This is to say, many animals that store away food in various caches fast much during the winter months.
+- Hibernation is a dormant state of existence, accompanied by greatly diminished respiration, circulation and metabolism, in which animals in the temperate regions spend the winter. . . . During this period the animal functions are nearly suspended; the body heat is lowered to or nearly that of the air, the action of the heart is much reduced and the animal loses from thirty to forty percent of its weight. . . . During hibernation the mammal may not feed, depending entirely on the stored food reserves within the body.
+- Hibernation, so common among animals, appears, then, to be one aspect of the general tendency of animals to withdraw from an unfavorable environment. . . . In hibernation the animal passes through the unfavorable period of low temperature and food scarcity in a dormant state. . . . Thus hibernation, like migration, is one of the means of solving the food problem during the period of acute scarcity.
+- The "winter sleep" of trees, shrubs and many other plants is seen on every hand during winter. . . . With the approach of Fall, these shed their leaves, their sap descends and they exist in a dormant state until the coming of Spring.
+- These plants fast through the whole of the winter months, taking no food during the time. . . . They take no carbon and nitrogen from the air and extract no minerals and nitrates from the soil. . . . Metabolism is practically non-existent during this period.
+- In discussing these post-mortems he says, "there was one fact revealed in every post-mortem of tremendous significance, that failed to make any impression on my mind other than to remember it. . . . The fact that no matter how emaciated the body, even if the skeleton condition had been reached, the brain, the heart, the lungs, except themselves diseased, never received any loss."
+- there are alimentary reserve stores in the body gathered to guard against times of need.
+- The heart may beat as slow as one beat in five to eight minutes, and the blood circulation be so slow that cuts made in the flesh bleed very slightly, yet the cuts heal. . . . Contrary to popular (and even professional) opinion, the vital tissues of the fasting organism do not begin to break down from starvation immediately upon the withdrawal of food. . . . The fasting body does lose weight, but "live weight" losses are not reliable indications of tissue changes within the organism.
+- There need be no fear of fasting, even the most prolonged fasting, under experienced and intelligent guidance. . . . The human body may have stored within it such enormous resources of energy that it will be able to fast many days.
+- At death from starvation the amount of weight lost may be fifty to sixty percent.
+- Nature always favors the most vital organs. . . . The fat disappears first, and then the other tissues in the inverse order of their usefulness.
+- From these tables it will be seen that the brain and nervous system continue intact [ hence the retained mental sharpness during the fast: it would seem that nature favors the brain highly! ] (retain their structural and functional integrity [ primary wholeness ]) until the last and retain the inherent power to maintain their nutrition unimpaired, although every other tissue has wasted beyond repair;
+- Only in a very special sense does the body "start eating itself when one begins to fast. . . . It never consumes its tissues indiscriminately, but, true to its rule of always favoring its most vital organs, it uses up the least useful tissues first.
+- The overworking of the physiological [ Un ] functions, which results from over-eating [ S-E ], weakens and impairs them. . . . Fasting reverses this and permits them to recuperate.
+- A fast is to the [ Un ] organs of the body what a night of restful repose is to the tired laborer.
+- Digestion and assimilation of food are a tax on the vital powers of the organism and increase the work of the stomach, liver, intestines, heart, lungs, kidneys, glands, etc.
+- When animals have any malady, they stop eating. . . . Loss of appetite is a symptom of disease, and it points also to the mode of cure....
+- Where is there a rest like fasting? . . . People go away for a rest. . . . They get a change of scenery, a change of food, a change of activity, but they fail to secure the rest they need. . . . If they would but fast a few days they would return to their old duties with renewed zest and increased energy. . . . Nothing can give renewed power of digestion to a worn-out digestive system, nothing affords such rest to over-wrought nerves, to fatigued bowels, or to an over-worked heart and glandular system as a fast—physiological rest. . . . Most vacationists go away and increase their physical exercise and eat more because of increased appetite and come back worse than before. . . . Physiological rest, decreased physical activity and long hours of recuperating sleep, will do more for these people in a few days, than months spent in the conventional manner.
+- The mental effects of fasting have been known for ages and have been much discussed by all writers on fasting.
+- All the purely mental [ pure En ] powers of man improve while fasting. . . . The ability to reason is increased. . . . Memory is improved. . . . Attention and association are quickened. . . . The so-called spiritual forces of man—intuition [ En ], sympathy, love, etc.—are all increased. . . . All of man's intellectual and emotional qualities are given new life. . . . *At no other time can the purely intellectual and aesthetic activities be so successfully pursued as during a fast.*
+- —intense physical [ Un ] lassitude, but with great clearness of mind [ En ].
+- ^xxs313naq
+- . . . This means that, as the old Romans used to say: . . .
+- . . . This well expresses a fact that is known to all mental workers. . . .
+- ^axw939nnn Mental workers have learned to eat a light breakfast and lunch and have their heavy meal in the evening after the day's work is done. When I was a high school boy, I used to miss a meal entirely when I knew I had an examination ahead.  At that time I knew nothing of fasting, but I had learned that
