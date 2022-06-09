@@ -76,7 +76,7 @@
 	     
 	     
 <details>
-    <summary>Read:</summary>
+    <summary>Others:</summary>
   		<ul><details>
 			{% for link in books.links %}
 			<summary><p>{{ books.author }}</p></summary>
@@ -89,19 +89,6 @@
 			</details></ul>
 </details>
 	     
-<details>
-    <summary>To Read:</summary>
-  		<ul><details>
-			{% for link in books.links %}
-			<summary><p>{{ books.author }}</p></summary>
-    				<a href="{{ books.url }}">{{ books.title }}</a>
-			{% endfor %}
-		</details></ul>
-  		<ul><details>
-    	  <summary>Author B</summary>
-    			Something small enough to escape casual notice.
-			</details></ul>
-</details>
 	{% include analytics.html %}
     	{% include open-embed.html %}
         <br>
