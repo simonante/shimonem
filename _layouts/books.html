@@ -52,9 +52,11 @@
     <summary>Classics</summary>
     Something small enough to escape casual notice.
   		<ul><details>
-    	  <summary>Author A</summary>
-    			Something small enough to escape casual notice.
-			</details></ul>
+			{% for link in books.links %}
+			<summary><p>{{ books.author }}</p></summary>
+    				<a href="{{ books.url }}">{{ books.title }}</a>
+			{% endfor %}
+		</details></ul>
   		<ul><details>
     	  <summary>Author B</summary>
     			Something small enough to escape casual notice.
