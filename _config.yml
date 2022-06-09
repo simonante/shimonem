@@ -89,6 +89,7 @@ exclude:
 collections:
   books-classics:
     output: true
+    permalink: /classics/:path/
     
 collections:
   books-read:
