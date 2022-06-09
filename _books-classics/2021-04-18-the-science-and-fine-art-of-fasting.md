@@ -1,7 +1,6 @@
 ---
 layout: post
 title: The Science and the Fine Art of Fasting
-permalink: /fast
 published: true
 ---
 
