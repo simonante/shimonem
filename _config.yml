@@ -97,7 +97,3 @@ collections:
 collections:
   books-wanttoread:
     output: true
-    
-collections:
-  quotes:
-    output: true
