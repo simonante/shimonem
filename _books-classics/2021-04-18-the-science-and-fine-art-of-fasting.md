@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: book-page
 title: The Science and the Fine Art of Fasting
 book-author: H.S. Shelton
-isbn-13: 
+isbn-13: 323223
 permalink: /classics/the-science-and-fine-art-of-fasting
 published: true
 ---
