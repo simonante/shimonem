@@ -87,7 +87,15 @@ exclude:
   - CNAME
 
 collections:
-  books:
+  books-classics:
+    output: true
+    
+collections:
+  books-read:
+    output: true
+    
+collections:
+  books-wanttoread:
     output: true
     
 collections:
