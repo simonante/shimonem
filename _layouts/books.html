@@ -50,16 +50,16 @@
        
 <details>
     <summary>Classics:</summary>
-  		<details>
+  		<li><details>
 			{% for link in books.links %}
 			<summary><p>{{ books.author }}</p></summary>
     				<a href="{{ books.url }}">{{ books.title }}</a>
 			{% endfor %}
-		</details>
-  		<details>
+		</details></li>
+  		<li><details>
     	  <summary>Author B</summary>
     			Something small enough to escape casual notice.
-			</details>
+		</details></li>
 </details>
 	     
 	     
