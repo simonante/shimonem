@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Produced Fine Arts
-permalink: /fineart/
+title: Op.
+permalink: /opuses/
 ---
 
 <p>Poetry</p>
