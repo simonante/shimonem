@@ -39,13 +39,7 @@
      <div id="main" role="main" class="container">
 
            <!--
-   <div markdown="1">
-          |---|---|
-          {% for books in site.books -%}
-          {% if books.title -%}
-          |[{{ books.title }}]({{ books.url }})  |   — {{ books.author }}  |
-          {% endif %}
-          {%- endfor -%}
+                868
          </div> --->
 
 <details>
@@ -6131,20 +6125,6 @@
 
 </details>
 
-
-<details>
-    <summary>Others:</summary>
-  		<ul><details>
-			{% for link in books.links %}
-			<summary><p>{{ books.author }}</p></summary>
-    				<a href="{{ books.url }}">{{ books.title }}</a>
-			{% endfor %}
-		</details></ul>
-  		<ul><details>
-    	  <summary>Author B</summary>
-    			Something small enough to escape casual notice.
-			</details></ul>
-</details>
 
 	{% include analytics.html %}
     	{% include open-embed.html %}
