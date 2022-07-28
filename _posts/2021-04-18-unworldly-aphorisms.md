@@ -3,7 +3,7 @@ layout: book-page
 title: Unworldly Aphorisms
 author: Simon Ante
 permalink: /unworldly-aphorisms
-published: true
+published: false
 ---
 
 The many who read a lot and think a little read those who read a little and think a lot.
