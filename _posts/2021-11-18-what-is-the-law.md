@@ -2,7 +2,7 @@
 layout: post
 title: What is The Law?
 permalink: /essays/the-law
-published: true
+published: false
 ---
 
 > Where there is no vision, the people perish:  
