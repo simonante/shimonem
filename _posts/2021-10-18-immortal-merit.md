@@ -2,7 +2,7 @@
 layout: post
 title: Immortal merit
 permalink: /essays/immortal-merit
-published: true
+published: false
 ---
 
 One of the most extraordinary experiences is to ex post see in history how an artist — immersed in then what now seems an atavistic primary movement — erect fine atemporality. For instance, it is thus marvelous to behold such untimely artefact in black and white photography. It is not a coincidence that such a rare spirits are compelled to unfold in clarity simplicity. They are as if undisturbed by the local false “complexities,“ immune to their lures and contagion.
