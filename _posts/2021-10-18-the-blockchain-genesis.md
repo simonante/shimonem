@@ -2,7 +2,7 @@
 layout: post
 title: The Blockchain Genesis
 permalink: /essays/the-blockchain-genesis
-published: true
+published: false
 ---
 
 An interesting question to consider: Has the blockchain ledger a beginning? In other words, has the blockchain ledger a “founding event?“ This is a difficult question, and must be considered from a vast array of viewpoints: be they strictly technical or even anthropologically theological.
