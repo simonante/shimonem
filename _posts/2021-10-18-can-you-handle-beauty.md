@@ -2,7 +2,7 @@
 layout: post
 title: Can you handle the beautiful?
 permalink: /essays/handle-beauty
-published: true
+published: false
 ---
 
 > There lives within the very flame of love  
