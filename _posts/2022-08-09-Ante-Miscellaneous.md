@@ -131,7 +131,7 @@ The feeling of aristocratic youth—whatever the age—whenever warped in a clea
 
 22
 
-In her I saw that fine and high purity, that formal and kempt exquisite mien that moves with all the grace of poetic Passion. She sat there in her eternal feminine, supple and lithe, in a light ironed long-sleeve blouse, sat there before a fine piano keyboard.
+In her I saw that fine and high purity, that formal and kempt exquisite mien that moves with all the grace of poetic Passion. She sat there in her eternal feminine, supple and lithe, in a light ironed long-sleeve blouse, sat there before the fine pianoforte.
 
 
 23
