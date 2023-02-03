@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Writings
-permalink: /writing/
+permalink: /op/
 ---
 
 <ul>
