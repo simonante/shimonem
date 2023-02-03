@@ -1,5 +1,5 @@
 ---
-layout: writing
+layout: post
 title: Unmellowed Thoughts
 permalink: /unmellowed-thoughts
 published: true
