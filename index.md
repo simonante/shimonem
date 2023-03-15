@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Simon Ante
+title: 
 ---
 
-<p>Thinking, Writing, Reading.</p>
+<p>Thinking.</p>
 <a href="mailto:hi@simonante.com" class="external">hi@simonante.com</a>
 
 ![Simon](/assets/s_ante.png)
