@@ -15,7 +15,7 @@ I - Unmellowed Thoughts
 
 My heart longed to struck
 A harpsichord or a lyre
-But matter-shy
+But matter-shyg about that men do seems to b
 Could only resort to struck
 The ethereal filaments of the mind.
 
@@ -116,6 +116,7 @@ Does a class of high-risk speculators materially augment the efficiency of a mar
 ---
 
 Much of the moving and commuting about that men do seems to be vanity. My soul seeks to be physically still and stationary, detests all jolting commute and vagary, except by a sauntering foot unhurried. If it would travel, then not physically like dull men do, but travel like nobility does, which is by mind.
+
 ---
 
 A mind used to thinking will find immersion in the common life most intimidating--namely, its lullaby, where it is by some irresistable power made, indeed forced, to enter a kind of entranced state, that is, the natural state.
