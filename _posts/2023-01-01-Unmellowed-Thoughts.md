@@ -15,7 +15,7 @@ I - Unmellowed Thoughts
 
 My heart longed to struck
 A harpsichord or a lyre
-But matter-shyg about that men do seems to b
+But matter-shy
 Could only resort to struck
 The ethereal filaments of the mind.
 
